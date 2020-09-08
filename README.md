@@ -1,6 +1,15 @@
 # Jetson Nano Mouseセットアップ情報
 
-Jetson NanoをJetson Nano Mouse向けにセットアップする際にあると便利な情報やスクリプトをまとめています。
+Jetson Nano™をJetson Nano Mouse向けにセットアップする際にあると便利な情報やスクリプトをまとめています。
+
+## Jetson Nano Mouse向けGitHubリポジトリ
+
+* [rt-net/JetsonNanoMouse](https://github.com/rt-net/JetsonNanoMouse)
+* [rt-net/jnm_jupternotebook](https://github.com/rt-net/jnm_jupyternotebook)
+
+## Jetson Nano Mouse向け情報
+
+* [トラブルシューティング](./docs/TroubleShooting.md)
 
 ## LICENSE
 
@@ -8,4 +17,4 @@ Jetson NanoをJetson Nano Mouse向けにセットアップする際にあると�
 
 [`scripts`](./scripts)ディレクトリの中のコードは[Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)です。
 
-その他、本ドキュメントや[`docs`](./docs)ディレクトリ中のドキュメントに関しては[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)です。
+[`docs`](./docs)ディレクトリ中のドキュメント、本ドキュメントを含むその他のドキュメント、画像に関しては[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)です。

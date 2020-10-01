@@ -2,14 +2,24 @@
 
 Jetson Nano™をJetson Nano Mouse向けにセットアップする際にあると便利な情報やスクリプトをまとめています。
 
+## 関連Webページ
+
+* Jetson Nano Mouse製品ページ
+    * https://rt-net.jp/products/jetson-nano-mouse
+* Jetson Nano Mouse使用方法紹介ブログ「Jetson Nano Mouseを動かしてみよう」
+    * https://rt-net.jp/mobility/archives/category/developer/lets-try-jetson-nano-mouse
+
 ## Jetson Nano Mouse向けGitHubリポジトリ
 
-* [rt-net/JetsonNanoMouse](https://github.com/rt-net/JetsonNanoMouse)
-* [rt-net/jnm_jupternotebook](https://github.com/rt-net/jnm_jupyternotebook)
+* Jetson Nano Mouse用デバイスドライバ
+    * [rt-net/JetsonNanoMouse](https://github.com/rt-net/JetsonNanoMouse)
+* Jetson Nano Mouse用Pythonパッケージ+機械学習サンプル（Jupyter Notebook）
+    * [rt-net/jnm_jupternotebook](https://github.com/rt-net/jnm_jupyternotebook)
 
 ## Jetson Nano Mouse向け情報
 
 * [トラブルシューティング](./docs/TroubleShooting.md)
+* [便利情報](./docs/Tips.md)
 
 ## LICENSE
 

@@ -9,14 +9,19 @@ Jetson Nano™をJetson Nano Mouse向けにセットアップする際にある�
 * Jetson Nano Mouse使用方法紹介ブログ「Jetson Nano Mouseを動かしてみよう」
     * https://rt-net.jp/mobility/archives/category/developer/lets-try-jetson-nano-mouse
 
-## Jetson Nano Mouse向けGitHubリポジトリ
+## Jetson Nano Mouse用GitHubリポジトリ
 
 * Jetson Nano Mouse用デバイスドライバ
     * [rt-net/JetsonNanoMouse](https://github.com/rt-net/JetsonNanoMouse)
 * Jetson Nano Mouse用Pythonパッケージ+機械学習サンプル（Jupyter Notebook）
     * [rt-net/jnm_jupternotebook](https://github.com/rt-net/jnm_jupyternotebook)
 
-## Jetson Nano Mouse向け情報
+## Jetson Nano用GitHubリポジトリ
+
+* Jetson Nano 開発者キット B01の2つのCSIカメラを同時に使用するためのROSパッケージ
+    * [rt-net/jetson_nano_csi_cam_ros](https://github.com/rt-net/jetson_nano_csi_cam_ros)
+
+## Jetson Nano/Jetson Nano Mouse用情報
 
 * [トラブルシューティング](./docs/TroubleShooting.md)
 * [設定メモ](./docs/Tips.md)

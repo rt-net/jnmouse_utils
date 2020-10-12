@@ -19,7 +19,8 @@ Jetson Nano™をJetson Nano Mouse向けにセットアップする際にある�
 ## Jetson Nano Mouse向け情報
 
 * [トラブルシューティング](./docs/TroubleShooting.md)
-* [便利情報](./docs/Tips.md)
+* [設定メモ](./docs/Tips.md)
+* [Jetson Nano用ソフトウェア](./docs/Utils.md)
 
 ## LICENSE
 

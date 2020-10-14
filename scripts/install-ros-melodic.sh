@@ -17,7 +17,13 @@ sudo apt-get install \
 	ros-melodic-teleop-twist-keyboard \
 	ros-melodic-tf2-ros \
 	ros-melodic-tf \
-	ros-melodic-urg-node
+	ros-melodic-urg-node \
 	ros-melodic-web-video-server
+sed -i -e 's/export ROS_IP/# export ROS_IP/g' ~/.bashrc
+sed -i -e 's/export ROS_MASTER_URI/# export ROS_MASTER_URI/g' ~/.bashrc
+echo "export MYWLAN0IP=\$(ip a show wlan0 | grep global | sed -e 's/.*inet \([0-9\.]*\).*/\1/g')" >> ~/.bashrc
+echo "export MYETH0IP=\$(ip a show eth0 | grep global | sed -e 's/.*inet \([0-9\.]*\).*/\1/g')" >> ~/.bashrc
+echo "export ROS_IP=\$(echo \$MYWLAN0IP \$MYETH0IP 127.0.0.1 | cut -d' ' -f1)" >> ~/.bashrc
+echo "export ROS_MASTER_URI=http://\$ROS_IP:11311" >> ~/.bashrc
 echo "Success installing ROS Melodic to Jetson Nano"
 echo "Run 'source ~/.bashrc'"

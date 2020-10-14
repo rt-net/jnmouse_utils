@@ -1,7 +1,7 @@
 #!/bin/bash -eu
 
 curl -SsfL https://raw.githubusercontent.com/Tiryoh/ros_setup_scripts_ubuntu/master/ros-melodic-ros-base-main.sh | bash
-sudo apt-get install \
+sudo apt-get install -y \
 	ros-melodic-cv-bridge \
 	ros-melodic-cv-camera \
 	ros-melodic-gmapping \

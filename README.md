@@ -15,6 +15,9 @@ Jetson Nano™をJetson Nano Mouse向けにセットアップする際にある�
     * [rt-net/JetsonNanoMouse](https://github.com/rt-net/JetsonNanoMouse)
 * Jetson Nano Mouse用Pythonパッケージ+機械学習サンプル（Jupyter Notebook）
     * [rt-net/jnm_jupternotebook](https://github.com/rt-net/jnm_jupyternotebook)
+* Jetson Nano MouseシミュレータROSパッケージ
+    * [rt-net/jnmouse_sim](https://github.com/rt-net/jnmouse_sim)
+    * [rt-net/jnmouse_description](https://github.com/rt-net/jnmouse_description)
 
 ## Jetson Nano用GitHubリポジトリ
 

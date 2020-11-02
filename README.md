@@ -30,6 +30,7 @@ Jetson Nano™をJetson Nano Mouse向けにセットアップする際にある�
 * [設定メモ](./docs/Tips.md)
 * [Jetson Nano用ソフトウェア紹介](./docs/Utils.md)
 * [Jetson Nano Mouseの使い方紹介ページリスト](./docs/JetsonNanoMouse.md)
+* [Jetson Nano Mouse用Jetson Nanoセットアップ方法(PDF)](https://drive.google.com/file/d/18fkDb3BfSD7nXUMLnFa0ooQqGDDyfUWV/view?usp=sharing)
 
 ## LICENSE
 

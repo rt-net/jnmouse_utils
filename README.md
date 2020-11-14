@@ -18,6 +18,8 @@ Jetson Nano™をJetson Nano Mouse向けにセットアップする際にある�
 * Jetson Nano MouseシミュレータROSパッケージ
     * [rt-net/jnmouse_sim](https://github.com/rt-net/jnmouse_sim)
     * [rt-net/jnmouse_description](https://github.com/rt-net/jnmouse_description)
+* Jetson Nano Mouseハードウェア情報リポジトリ
+    * [rt-net/JetsonNanoMouse_Hardware](https://github.com/rt-net/JetsonNanoMouse_Hardware)
 
 ## Jetson Nano用GitHubリポジトリ
 

@@ -1,5 +1,12 @@
 #!/bin/bash -eu
 
+if which curl >/dev/null 2>&1; then
+    :
+else
+    sudo apt-get update -qq
+    sudo apt-get install -y curl
+fi
+
 curl -SsfL https://raw.githubusercontent.com/Tiryoh/ros_setup_scripts_ubuntu/master/ros-melodic-ros-base-main.sh | bash
 sudo apt-get install -y \
 	ros-melodic-cv-bridge \

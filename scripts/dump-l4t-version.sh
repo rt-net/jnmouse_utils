@@ -2,7 +2,7 @@
 
 L4T=`head -n1 /etc/nv_tegra_release | sed -E "s/# (R[0-9]*) .*REVISION: ([0-9\.]*),.*/\1.\2/g"`
 
-JP="N/A"
+JP="JetPack version unknown or not defined"
 if [ "$L4T" == "R32.2.1" ]; then JP="JetPack4.2.2"; fi
 if [ "$L4T" == "R32.2.3" ]; then JP="JetPack4.2.3"; fi
 if [ "$L4T" == "R32.3.1" ]; then JP="JetPack4.3"; fi

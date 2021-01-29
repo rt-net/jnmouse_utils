@@ -8,5 +8,6 @@ if [ "$L4T" == "R32.2.3" ]; then JP="JetPack4.2.3"; fi
 if [ "$L4T" == "R32.3.1" ]; then JP="JetPack4.3"; fi
 if [ "$L4T" == "R32.4.3" ]; then JP="JetPack4.4"; fi
 if [ "$L4T" == "R32.4.4" ]; then JP="JetPack4.4.1"; fi
+if [ "$L4T" == "R32.5.0" ]; then JP="JetPack4.5"; fi
 
 echo $L4T, $JP

@@ -13,8 +13,10 @@ Jetson Nano™をJetson Nano Mouse向けにセットアップする際にある�
 
 * Jetson Nano Mouse用デバイスドライバ
     * [rt-net/JetsonNanoMouse](https://github.com/rt-net/JetsonNanoMouse)
-* Jetson Nano Mouse用Pythonパッケージ+機械学習サンプル（Jupyter Notebook）
+* Jetson Nano Mouse用Pythonパッケージ+機械学習・画像処理サンプル（Jupyter Notebook）
     * [rt-net/jnm_jupternotebook](https://github.com/rt-net/jnm_jupyternotebook)
+* Jetson Nano Mouse用ROSサンプル
+    * [rt-net/jnmouse_ros_examples](https://github.com/rt-net/jnmouse_ros_examples)
 * Jetson Nano MouseシミュレータROSパッケージ
     * [rt-net/jnmouse_sim](https://github.com/rt-net/jnmouse_sim)
     * [rt-net/jnmouse_description](https://github.com/rt-net/jnmouse_description)

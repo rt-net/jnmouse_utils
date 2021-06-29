@@ -35,3 +35,20 @@ $ sudo systemctl restart nvargus-daemon
 ```
 
 参考：https://github.com/NVIDIA-AI-IOT/jetbot/issues/1
+
+## `jetbot.apps.stats`のプロセスのCPU使用率が高い
+
+JetBotにはIPアドレス等ロボットの状態を表示するディスプレイつけますが、そのディスプレイと通信できなかったときに[エラーが記録されます](./Tips.md#dmesgのログについて)。  
+（Jetson Nano Mouseにはロボットの状態を表示するディスプレイはありません）
+
+以下のコマンドでロボットの状態を表示するディスプレイとの通信を停止できます。
+
+```
+$ sudo systemctl stop jetbot_stats.service
+```
+
+さらに以下のコマンドでロボットの状態を表示するディスプレイと通信するためのサービスの自動起動を無効化できます。
+
+```
+$ sudo systemctl disable jetbot_stats.service
+```

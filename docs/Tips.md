@@ -39,3 +39,22 @@ $ ./jnmouse_utils/scripts/update-camera-overrides.sh
 調整後は以下のようにある程度赤みを除去できます。
 
 <img src="https://user-images.githubusercontent.com/3256629/97837884-6f664900-1d22-11eb-92a7-125bdd624445.png" width="500px">
+
+
+## Power Modeの変更
+
+Jetson Nanoは使用するCPUのパフォーマンスを抑えて省電力にする5Wモードと、パフォーマンスを最大限活用するMAXNモードがあります。
+
+MAXNモードを有効化するには下記コマンドを実行します。
+
+```
+sudo nvpmodel -m 0
+```
+
+5Wモードに戻す場合は下記コマンドを実行します。
+
+```
+sudo nvpmodel -m 1
+```
+
+参考：https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/power_management_nano.html#wwpID0E0FL0HA

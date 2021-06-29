@@ -23,3 +23,19 @@ $ sudo systemctl stop jetbot_stats.service
 ```
 $ sudo systemctl disable jetbot_stats.service
 ```
+
+## カメラ映像の赤み除去
+
+<img src="https://user-images.githubusercontent.com/3256629/97837878-6d9c8580-1d22-11eb-855d-73a89e8a40d6.png" width="500px">
+
+画像のようにIMX219 169FOVカメラの映像が赤みがかっている場合、
+以下のコマンドでカメラパラメータの調整が可能です。
+
+```
+$ git clone https://github.com/rt-net/jnmouse_utils
+$ ./jnmouse_utils/scripts/update-camera-overrides.sh
+```
+
+調整後は以下のようにある程度赤みを除去できます。
+
+<img src="https://user-images.githubusercontent.com/3256629/97837884-6f664900-1d22-11eb-92a7-125bdd624445.png" width="500px">

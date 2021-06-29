@@ -40,6 +40,7 @@ $ ./jnmouse_utils/scripts/update-camera-overrides.sh
 
 <img src="https://user-images.githubusercontent.com/3256629/97837884-6f664900-1d22-11eb-92a7-125bdd624445.png" width="500px">
 
+参考：https://github.com/rt-net/jnmouse_utils/pull/1
 
 ## Power Modeの変更
 

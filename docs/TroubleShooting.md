@@ -36,9 +36,14 @@ $ sudo systemctl restart nvargus-daemon
 
 参考：https://github.com/NVIDIA-AI-IOT/jetbot/issues/1
 
-## `jetbot.apps.stats`のプロセスのCPU使用率が高い
+## カーネルのメッセージバッファに`tegra-i2c`のエラーログが複数回出現
 
-JetBotにはIPアドレス等ロボットの状態を表示するディスプレイつけますが、そのディスプレイと通信できなかったときに[エラーが記録されます](./Tips.md#dmesgのログについて)。  
+`dmesg`でカーネルのメッセージバッファを確認すると
+```
+tegra-i2c 7000c400.i2c: no acknowledge from address 0x3c
+```
+と複数回表示されることがあります。  
+JetBotにはIPアドレス等ロボットの状態を表示するディスプレイつけますが、そのディスプレイと通信できなかったときにエラーが記録されます。  
 （Jetson Nano Mouseにはロボットの状態を表示するディスプレイはありません）
 
 以下のコマンドでロボットの状態を表示するディスプレイとの通信を停止できます。

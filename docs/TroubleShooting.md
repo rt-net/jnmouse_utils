@@ -57,3 +57,9 @@ $ sudo systemctl stop jetbot_stats.service
 ```
 $ sudo systemctl disable jetbot_stats.service
 ```
+
+## Jetson-IOでエラーが出る
+
+以下のページをご確認ください。
+
+https://github.com/rt-net/JetsonNanoMouse/wiki/Jetson-IO%E3%81%AE%E8%B5%B7%E5%8B%95%E3%82%A8%E3%83%A9%E3%83%BC%E5%AF%BE%E5%87%A6%E6%96%B9%E6%B3%95

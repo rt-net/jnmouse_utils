@@ -55,3 +55,30 @@ sudo nvpmodel -m 1
 ```
 
 参考：https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/power_management_nano.html#wwpID0E0FL0HA
+
+## 自動ソフトウェアアップデートの停止
+
+自動で実施されるソフトウェアアップデートを停止するには以下のコマンドを実行します。
+
+```
+$ git clone https://github.com/rt-net/jnmouse_utils
+$ ./jnmouse_utils/scripts/disable-auto-apt-upgrade.sh
+```
+
+## L4TやJetPackのバージョン確認
+
+L4TやJetPackのバージョンを確認するには以下のコマンドを実行します。
+
+```
+$ git clone https://github.com/rt-net/jnmouse_utils
+$ ./jnmouse_utils/scripts/dump-l4t-version.sh
+```
+
+## ROSのインストール
+
+ROSをインストールするには以下のコマンドを実行します。
+
+```
+$ git clone https://github.com/rt-net/jnmouse_utils
+$ ./jnmouse_utils/scripts/install-ros-melodic.sh
+```

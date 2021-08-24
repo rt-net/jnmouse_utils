@@ -243,7 +243,7 @@ sudo make install
 
 # Install remaining dependencies for projects
 echo -e "\e[104m Install remaining dependencies for projects \e[0m"
-sudo apt-get install python-setuptools tmux
+sudo apt-get install -y python-setuptools tmux
 
 echo -e "\e[42m All done! \e[0m"
 

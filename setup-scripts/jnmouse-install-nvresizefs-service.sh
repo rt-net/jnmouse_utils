@@ -15,7 +15,7 @@ echo ' '
 echo '> ${DIR} set to '${DIR}
 
 sudo cp ${DIR}/src/nvresizefs.sh /etc/systemd/nvresizefs.sh
-sudo cp ${DIR}/src/system/nvresizefs.service /etc/systemd/system/nvresizefs.service
+sudo cp ${DIR}/src/nvresizefs.service /etc/systemd/system/nvresizefs.service
 
 echo ' '
 echo '> Check /etc/systemd'

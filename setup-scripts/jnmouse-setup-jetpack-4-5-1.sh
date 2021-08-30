@@ -120,7 +120,7 @@ sudo -H python3 -m pip install git+https://github.com/ipython/traitlets@dead2b8c
 # Install JupyterLab (lock to 2.2.6, latest as of Sept 2020)
 echo -e "\e[48;5;172m Install Jupyter Lab 2.2.6 \e[0m"
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-sudo apt install -y nodejs libffi-dev libssl1.0-dev 
+sudo apt install -y nodejs libffi-dev libssl-dev 
 # Requires jedi==0.17.2 for Python 3.6 + iPython 7.x to avoid tab completion error
 # https://github.com/ipython/ipython/issues/12748
 sudo -H pip3 install jupyter jupyterlab==2.2.6 jedi==0.17.2 --verbose
@@ -142,11 +142,9 @@ git checkout tags/v0.1
 sudo -H pip3 install -e .
 sudo -H jupyter labextension install js
 sudo -H jupyter lab clean
-sudo -H jupyter lab build
-
-# Fix for permission error
 sudo chown -R jetson:jetson ~/.local/share
 sudo chown -R jetson:jetson /usr/local/share/jupyter
+jupyter lab build
 
 # Install jnm_jupyternotebook
 sudo apt-get install -y python3-smbus

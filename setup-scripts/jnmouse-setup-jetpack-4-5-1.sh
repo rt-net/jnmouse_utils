@@ -242,6 +242,9 @@ fi
 # Install partition resize service
 bash $DIR/jnmouse-install-nvresizefs-service.sh
 
+# Install SSH host key reset service
+bash $DIR/jnmouse-install-resetsshhostkey-service.sh
+
 # Patch graphsurgeon
 # This patch is based on
 # https://github.com/jkjung-avt/tensorrt_demos/blob/9dd56b3b8d841dcfc2e5d1868f4bd785a50cbe98/ssd/install.sh

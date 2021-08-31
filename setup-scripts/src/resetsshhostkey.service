@@ -1,0 +1,20 @@
+#
+# This file is based on
+# https://github.com/NVIDIA-AI-IOT/jetcard/blob/852475be56ab220283b273f7c320e74b764a3b43/scripts/archive/system/nvresizefs.service
+# which is released under the MIT License.
+#
+# Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.
+#
+# https://github.com/NVIDIA-AI-IOT/jetcard/blob/852475be56ab220283b273f7c320e74b764a3b43/LICENSE.md
+
+
+[Unit]
+Description=Re-generate SSH host key
+Before=nvfb.service
+
+[Service]
+Type=oneshot
+ExecStart=/etc/systemd/resetsshhostkey.sh
+
+[Install]
+WantedBy=multi-user.target

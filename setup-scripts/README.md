@@ -1,3 +1,5 @@
+[English](README.md) | [日本語](README.ja.md)
+
 # setup-scripts
 
 These are scripts for creating SD-card image from scrach for [Jetson Nano Mouse](https://rt-net.jp/products/jetson-nano-mouse/).  
@@ -19,7 +21,7 @@ Download the image directly
 
 | Platform | Board revision | JetPack Version | Download | MD5 Checksum | branch |
 | -------- | -------------- | --------------- | -------- |------------- | ------ |
-| Jetson Nano (4GB) | `B01` | 4.5.1 |  jnmouse-jp451-v1.zip | 0 | [`release/jetpack-4.5.1`](https://github.com/rt-net/jnmouse_utils/tree/release/jetpack-4.5.1)
+| Jetson Nano (4GB) | `B01` | 4.5.1 |  [jnmouse_jp451_v1.zip](https://drive.google.com/open?id=1txWe7OSPzoAymprqKH0puZkG0RpUIWVL) | `6628fbec144e81b47490be3940276371` | [`release/jetpack-4.5.1`](https://github.com/rt-net/jnmouse_utils/tree/release/jetpack-4.5.1)
 
 NOTE: Checkout the [NVIDIA's JetPack EULA](https://docs.nvidia.com/jetson/jetpack/eula/) before installation.
 

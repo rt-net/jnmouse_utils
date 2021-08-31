@@ -1,3 +1,5 @@
+[English](README.md) | [日本語](README.ja.md)
+
 # setup-scripts
 
 These are scripts for creating SD-card image from scrach for [Jetson Nano Mouse](https://rt-net.jp/products/jetson-nano-mouse/).  

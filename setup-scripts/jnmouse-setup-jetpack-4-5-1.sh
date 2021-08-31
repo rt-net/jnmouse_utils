@@ -210,6 +210,15 @@ cd $DIR/../
 pwd
 bash ./scripts/install-ros-melodic.sh
 
+# ============================
+# Install JetsonNanoMouse
+# ============================
+cd $HOME
+git clone https://github.com/rt-net/JetsonNanoMouse
+cd JetsonNanoMouse
+make build
+sudo make install
+
 # =================================
 # Optimize the system configuration
 # =================================
@@ -230,14 +239,19 @@ if [ -f /usr/lib/nvidia/qspi-update/nvqspi-update.sh.bak ]; then
     sudo mv /usr/lib/nvidia/qspi-update/nvqspi-update.sh.bak /usr/lib/nvidia/qspi-update/nvqspi-update.sh
 fi
 
-# ============================
-# Install JetsonNanoMouse
-# ============================
-cd $HOME
-git clone https://github.com/rt-net/JetsonNanoMouse
-cd JetsonNanoMouse
-make build
-sudo make install
+# Install partition resize service
+bash $DIR/jnmouse-install-nvresizefs-service.sh
+
+# Patch graphsurgeon
+# This patch is based on
+# https://github.com/jkjung-avt/tensorrt_demos/blob/9dd56b3b8d841dcfc2e5d1868f4bd785a50cbe98/ssd/install.sh
+# which is released under the MIT License.
+# Copyright (c) 2019 JK Jung
+# https://github.com/jkjung-avt/tensorrt_demos/blob/9dd56b3b8d841dcfc2e5d1868f4bd785a50cbe98/LICENSE
+GS_PATH=$(ls /usr/lib/python3.?/dist-packages/graphsurgeon/node_manipulation.py)
+if head -69 $GS_PATH | tail -1 | grep -q update_node; then
+  sudo patch -N -p1 -r - $GS_PATH $DIR/src/graphsurgeon.patch
+fi
 
 # Install remaining dependencies for projects
 echo -e "\e[104m Install remaining dependencies for projects \e[0m"

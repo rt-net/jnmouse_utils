@@ -21,6 +21,8 @@ Download the image directly
 | -------- | -------------- | --------------- | -------- |------------- | ------ |
 | Jetson Nano (4GB) | `B01` | 4.5.1 |  jnmouse-jp451-v1.zip | 0 | [`release/jetpack-4.5.1`](https://github.com/rt-net/jnmouse_utils/tree/release/jetpack-4.5.1)
 
+NOTE: Checkout the [NVIDIA's JetPack EULA](https://docs.nvidia.com/jetson/jetpack/eula/) before installation.
+
 ### Option 2
 
 Create the SD-card image from scrach

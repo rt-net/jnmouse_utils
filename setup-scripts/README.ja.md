@@ -4,6 +4,9 @@
 
 ## イメージリスト
 
+* デフォルトユーザは`jetson`、パスワードは`jetson`です。
+* SDカードの容量を25GB程度使用しますので64GBのSDカードの使用を推奨します。
+
 | Platform | Board revision | JetPack Version | Download | MD5 Checksum | branch |
 | -------- | -------------- | --------------- | -------- |------------- | ------ |
 | Jetson Nano (4GB) | `B01` | 4.5.1 |  [jnmouse_jp451_v1.zip](https://drive.google.com/open?id=1txWe7OSPzoAymprqKH0puZkG0RpUIWVL) | `6628fbec144e81b47490be3940276371` | [`release/jetpack-4.5.1`](https://github.com/rt-net/jnmouse_utils/tree/release/jetpack-4.5.1)

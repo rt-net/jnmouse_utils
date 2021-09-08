@@ -11,6 +11,8 @@ After configuring the system using this setup scripts, you can get started proto
 
 Download the image directly
 
+This image uses about 25GB of storage, so using a 64GB SD card is recommended.
+
 1. Download the image and flash it using [balenaEtcher](https://www.balena.io/etcher/).
 2. Insert the microSD card to the Jeson Nano and run the following command to get ready for developping.
     ```
@@ -18,6 +20,9 @@ Download the image directly
     ./configure-jetson.sh
     ./update-qspi.sh
     ```
+
+* default user name: `jetson`
+* default user password: `jetson`
 
 | Platform | Board revision | JetPack Version | Download | MD5 Checksum | branch |
 | -------- | -------------- | --------------- | -------- |------------- | ------ |

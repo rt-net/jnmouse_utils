@@ -23,6 +23,7 @@ This image uses about 25GB of storage, so using a 64GB microSD card is recommend
 
 * default user name: `jetson`
 * default user password: `jetson`
+* differences between each image: [CHANGELOG.md](./CHANGELOG.md)
 
 | Platform | Board revision | JetPack Version | Download | MD5 Checksum | branch |
 | -------- | -------------- | --------------- | -------- |------------- | ------ |

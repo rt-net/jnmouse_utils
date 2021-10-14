@@ -13,7 +13,8 @@
 | Jetson Nano (4GB) | `B01` | 4.5.1 |  [jnmouse_jp451_v1.zip](https://drive.google.com/open?id=1txWe7OSPzoAymprqKH0puZkG0RpUIWVL) | `6628fbec144e81b47490be3940276371` | [`release/jetpack-4.5.1`](https://github.com/rt-net/jnmouse_utils/tree/release/jetpack-4.5.1)
 
 ※NVIDIA社の[JetPack EULA](https://docs.nvidia.com/jetson/jetpack/eula/)を事前にご確認ください。  
-イメージ作成途中にEULAへの同意ボタンをクリックしていますので、ダウンロード時点でEULAへ同意されたものとみなされます。
+イメージ作成途中にEULAへの同意ボタンをクリックしていますので、ダウンロード時点でEULAへ同意されたものとみなされます。  
+※各イメージの差分については[CHANGELOG.md](./CHANGELOG.md)をご参照ください。
 
 ## 使い方
 

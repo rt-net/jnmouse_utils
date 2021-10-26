@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-# This program is based on https://github.com/dusty-nv/ros_deep_learning.
+# This program is based on https://github.com/NVIDIA-AI-IOT/jetcard.
 # which is released under the MIT License.
 # 
 # Copyright (c) 2019, NVIDIA CORPORATION. All rights reserved.

@@ -46,7 +46,7 @@ tegra-i2c 7000c400.i2c: no acknowledge from address 0x3c
 JetBotにはIPアドレス等ロボットの状態を表示するディスプレイが搭載されていますが、そのディスプレイと通信できなかったときにエラーが記録されます。  
 （Jetson Nano Mouseにはロボットの状態を表示するディスプレイはありません）
 
-以下のコマンドでロボットの状態を表示するディスプレイとの通信を停止できます。
+JetPack 4.3の場合は以下のコマンドでロボットの状態を表示するディスプレイとの通信を停止できます。
 
 ```
 $ sudo systemctl stop jetbot_stats.service

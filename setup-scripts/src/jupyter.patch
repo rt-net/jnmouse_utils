@@ -1,0 +1,11 @@
+--- a/kernel.json	2021-11-04 16:03:52.780275446 +0900
++++ b/kernel.json	2021-11-04 16:05:02.794712480 +0900
+@@ -7,5 +7,6 @@
+   "{connection_file}"
+  ],
+  "display_name": "Python 3",
+- "language": "python"
++ "language": "python",
++ "env": {"LD_PRELOAD":"/usr/lib/aarch64-linux-gnu/libgomp.so.1"}
+ }
+

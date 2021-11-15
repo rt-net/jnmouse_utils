@@ -1,0 +1,13 @@
+--- a/common.py	2021-11-04 18:36:35.588138344 +0900
++++ b/common.py	2021-11-04 18:36:44.356371725 +0900
+@@ -94,8 +94,8 @@ def import_os_variables(SOURCE, PATTERN)
+         source_env = {}
+         for tup in map(lambda s: s.decode("utf-8").strip().split('=', 1), proc.stdout):
+             name = tup[0].strip()
+-            value = tup[1].strip()
+             if PATTERN in name:
++                value = tup[1].strip()
+                 source_env[name] = value
+         return source_env
+     else:
+

@@ -72,6 +72,9 @@ sudo apt-get install -y \
 # Install jtop
 echo -e "\e[100m Install jtop \e[0m"
 sudo -H pip3 install jetson-stats 
+# patch for jtop 3.1.1
+# https://github.com/rbonghi/jetson_stats/issues/144#issuecomment-960595993
+sudo patch -N -p1 -r - /usr/local/lib/python3.6/dist-packages/jtop/core/common.py $DIR/src/jtop-3-1-1.patch
 
 # ============================================
 # Install jnm_jupyternotebook and Jupyter Lab

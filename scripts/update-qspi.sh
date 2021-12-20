@@ -15,7 +15,7 @@ MSG+="You can downgrade the firmware with flashing JetPack 4.4 or older releases
 MSG+="Do you want to continue?"
 
 if [[ "$SELECTED_LANG" == "1" ]]; then
-    MSG="Jetson Nano開発者キットのブートローダ (boot firmware) を\"integrated QSPI-NOR\"に更新します。\n"
+    MSG="Jetson Nano開発者キット内のQSPI-NOR Flashメモリに新しいブートローダ (boot firmware) を書き込みます。\n"
     MSG+="これはJetPack 4.5から導入されたものです。\n"
     MSG+="https://developer.nvidia.com/embedded/linux-tegra-r325\n"
     MSG+="以下の2つの影響があります。\n\n"

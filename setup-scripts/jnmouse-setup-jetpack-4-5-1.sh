@@ -207,6 +207,20 @@ python3 setup.py build
 sudo python3 setup.py install
 python3 -c "import pycuda; print('pycuda version:', pycuda.VERSION)"
 
+# =====================
+# Install jetson-utils
+# =====================
+echo -e "\e[45m Install dusty-nv/jetson-utils \e[0m"
+sudo apt install -y libglew-dev
+cd $HOME/jnmouse_utils/workspace
+git clone https://github.com/dusty-nv/jetson-utils.git
+mkdir jetson-utils/build
+cd jetson-utils/build
+cmake ..
+make
+sudo make install
+sudo ldconfig
+
 # ====================
 # Install ROS Melodic
 # ====================

@@ -2,6 +2,8 @@
 
 Jetson Nano™をJetson Nano Mouse向けにセットアップする際にあると便利な情報やスクリプトをまとめています。
 
+[`setup-scripts`](./setup-scripts)ディレクトリにはJetson Nano Mouse用SDカードイメージ作成スクリプトを公開しています。
+
 ## 関連Webページ
 
 * Jetson Nano Mouse製品ページ
@@ -27,6 +29,8 @@ Jetson Nano™をJetson Nano Mouse向けにセットアップする際にある�
 
 * Jetson Nano 開発者キット B01の2つのCSIカメラを同時に使用するためのROSパッケージ
     * [rt-net/jetson_nano_csi_cam_ros](https://github.com/rt-net/jetson_nano_csi_cam_ros)
+* Jetson Nano 開発者キット B01の2つのCSIカメラを同時に使用するためのROSパッケージ（CUDAを使用した高速版）
+    * [rt-net/jetson_nano_cuda_csi_cam_ros](https://github.com/rt-net/jetson_nano_cuda_csi_cam_ros)
 
 ## Jetson Nano/Jetson Nano Mouse用情報
 
@@ -34,13 +38,13 @@ Jetson Nano™をJetson Nano Mouse向けにセットアップする際にある�
 * [設定メモ](./docs/Tips.md)
 * [Jetson Nano用ソフトウェア紹介](./docs/Utils.md)
 * [Jetson Nano Mouseの使い方紹介ページリスト](./docs/JetsonNanoMouse.md)
-* [Jetson Nano Mouse用Jetson Nanoセットアップ方法(PDF)](https://drive.google.com/file/d/18fkDb3BfSD7nXUMLnFa0ooQqGDDyfUWV/view?usp=sharing)
+* [Jetson Nano Mouse用Jetson Nanoセットアップ方法](https://rt-net.github.io/tutorials/jnmouse/driver/install.html)
 
 ## LICENSE
 
-(C) 2020 RT Corporation \<support@rt-net.jp\>
+(C) 2020-2022 RT Corporation \<support@rt-net.jp\>
 
-[`scripts`](./scripts)ディレクトリの中のコードは[Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)です。
+[`scripts`](./scripts)および[`setup-scripts`](./setup-scripts)ディレクトリの中のコードは[Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)です。
 
 [`docs`](./docs)ディレクトリ中のドキュメント、本ドキュメントを含むその他のドキュメント、画像に関しては[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)です。
 

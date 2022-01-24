@@ -261,6 +261,9 @@ if head -69 $GS_PATH | tail -1 | grep -q update_node; then
   sudo patch -N -p1 -r - $GS_PATH $DIR/src/graphsurgeon.patch
 fi
 
+# Patch docker to use GPU while "docker build"
+sudo patch -N -p1 -r - /etc/docker/daemon.json $DIR/src/docker-daemon.patch
+
 # Install remaining dependencies for projects
 echo -e "\e[104m Install remaining dependencies for projects \e[0m"
 sudo apt-get install -y python-setuptools tmux
